@@ -49,9 +49,12 @@ deploy:
     - echo $SSH_KNOWN_HOSTS > ~/.ssh/known_hosts
     - chmod 644 ~/.ssh/known_hosts
     - ssh-add <(echo "$SSH_PRIVATE_KEY" | base64 --decode)
+    - source /util/opt/lmod/lmod/init/profile
+    - module load lmod
   script:
     - cd $MODULES_DIR
     - git checkout master
     - git fetch
     - git checkout $CI_COMMIT_SHA
+    - update_lmod_system_cache_files -d /util/opt/modulefiles/cacheDir -t /util/opt/modulefiles/cacheTS.txt /util/opt/modulefiles
 
