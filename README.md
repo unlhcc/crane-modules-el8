@@ -1,7 +1,7 @@
 Crane Module Files
 =================
 
-Lua module files for **crane.unl.edu**
+Lua module files for **crane.unl.edu** (EL8)
 
 How to update:
 -------------
@@ -11,7 +11,7 @@ which will then later get merged into the master branch.
 
 If you don't have a copy of the repo, clone it first:
 
-`git clone git@git.unl.edu:hcc/crane-modules.git`
+`git clone git@git.unl.edu:hcc/crane-modules-el8.git`
 
 If you've already cloned it, do a pull to make sure you're up to date:
 
@@ -37,8 +37,8 @@ local repo:
 
 ```
 module unuse /util/opt/modulefiles/Core
-module use ~/crane-modules/Core
-export MODULEPATH_ROOT=~/crane-modules
+module use ~/crane-modules-el8/Core
+export MODULEPATH_ROOT=~/crane-modules-el8
 ```
 
 Now you can test out any changes local to your account.
@@ -55,7 +55,7 @@ An automated test job will be triggered that does a couple of sanity checks.
 If it fails, fix the problem, commit the changes to your branch and push it
 again.
 
-Once it passes, on the https://git.unl.edu/hcc/crane-modules page, create a Merge Request 
+Once it passes, on the https://git.unl.edu/hcc/crane-modules-el8 page, create a Merge Request
 from the `mypackage-1.0` branch to the `master` branch.
 
 Once the new branch has been merged, switch back to master and do a pull:
