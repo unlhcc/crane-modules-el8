@@ -2,6 +2,7 @@ variables:
   WORK: "/tmp"
   LMOD_REDIRECT: "yes"
   MODULES_DIR: "/util/opt/modulefiles"
+  LMOD_HOME: "/util/opt/lmod/lmod"
 
 stages:
   - test
@@ -16,7 +17,7 @@ test-modules:
     - docker
   before_script:
     - ln -s $CI_PROJECT_DIR $MODULES_DIR
-    - source /util/opt/lmod/lmod/init/profile
+    - source $LMOD_HOME/init/profile
   script:
     - module av > /dev/null
     - module spider > /dev/null
@@ -49,12 +50,12 @@ deploy:
     - echo $SSH_KNOWN_HOSTS > ~/.ssh/known_hosts
     - chmod 644 ~/.ssh/known_hosts
     - ssh-add <(echo "$SSH_PRIVATE_KEY" | base64 --decode)
-    - source /util/opt/lmod/lmod/init/profile
+    - source $LMOD_HOME/init/profile
     - module load lmod
   script:
     - cd $MODULES_DIR
     - git checkout master
     - git fetch
     - git checkout $CI_COMMIT_SHA
-    - update_lmod_system_cache_files -d /util/opt/modulefiles/cacheDir -t /util/opt/modulefiles/cacheTS.txt /util/opt/modulefiles
+    - update_lmod_system_cache_files -d $MODULES_DIR/cacheDir -t $MODULES_DIR/cacheTS.txt $MODULES_DIR
 
