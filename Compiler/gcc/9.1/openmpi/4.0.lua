@@ -31,3 +31,6 @@ prepend_path("MODULEPATH",          mdir)
 prepend_path("CPATH",               "/util/opt/openmpi/4.0/gcc/9.1/include")
 prepend_path("LIBRARY_PATH",        "/util/opt/openmpi/4.0/gcc/9.1/lib")
 prepend_path("PKG_CONFIG_PATH",     "/util/opt/openmpi/4.0/gcc/9.1/lib/pkgconfig")
+
+setenv("SLURM_WHOLE", "1")
+setenv("SLURM_OVERLAP", "1")
