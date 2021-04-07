@@ -34,3 +34,5 @@ prepend_path("MODULEPATH",          mdir)
 
 family("mpi")
 
+setenv("SLURM_WHOLE","1")
+setenv("SLURM_OVERLAP","1")
