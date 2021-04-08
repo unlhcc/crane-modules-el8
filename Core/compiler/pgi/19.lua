@@ -26,11 +26,11 @@ local mroot = os.getenv("MODULEPATH_ROOT") or "/util/opt/modulefiles"
 local mdir = pathJoin(mroot,"Compiler","pgi","19")
 prepend_path("MODULEPATH",          mdir)
 
-setenv("CFLAGS",        "-tp=sandybridge")
-setenv("FFLAGS",        "-tp=sandybridge")
-setenv("CXXFLAGS",        "-tp=sandybridge")
-setenv("F90FLAGS",        "-tp=sandybridge")
-setenv("FCFLAGS",        "-tp=sandybridge")
+--setenv("CFLAGS",        "-tp=sandybridge")
+--setenv("FFLAGS",        "-tp=sandybridge")
+--setenv("CXXFLAGS",        "-tp=sandybridge")
+--setenv("F90FLAGS",        "-tp=sandybridge")
+--setenv("FCFLAGS",        "-tp=sandybridge")
 
 setenv("CC",	"pgcc")
 setenv("FC",	"pgf90")
