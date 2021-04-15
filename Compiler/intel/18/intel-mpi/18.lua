@@ -46,9 +46,5 @@ prepend_path("LD_LIBRARY_PATH",     "/util/opt/dapl/2.1.7/lib/")
 setenv("I_MPI_PMI_LIBRARY",	"/lib64/libpmi.so")
 setenv("I_MPI_FABRICS",         "shm:ofi")
 
-< SLURM_OVERLAP=1
-< SLURM_WHOLE=1
-
-
 setenv("SLURM_OVERLAP",   "1")
 setenv("SLURM_WHOLE",     "1")
