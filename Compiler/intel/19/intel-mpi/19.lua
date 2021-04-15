@@ -43,3 +43,7 @@ family("mpi")
 prepend_path("PATH",                "/util/opt/libfabric/1.11/gcc/4.4/bin")
 prepend_path("LD_LIBRARY_PATH",     "/util/opt/libfabric/1.11/gcc/4.4/lib")
 prepend_path("LD_LIBRARY_PATH",     "/util/opt/dapl/2.1.7/lib/")
+
+setenv("SLURM_OVERLAP",   "1")
+setenv("SLURM_WHOLE",     "1")
+
