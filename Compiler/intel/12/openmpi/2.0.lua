@@ -33,3 +33,6 @@ family("mpi")
 prepend_path("CPATH",             "/util/opt/openmpi/2.0/intel/12/include")
 prepend_path("LIBRARY_PATH",     "/util/opt/openmpi/2.0/intel/12/lib")
 prepend_path("PKG_CONFIG_PATH",        "/util/opt/openmpi/2.0/intel/12/lib/pkgconfig")
+
+setenv("SLURM_WHOLE", "1")
+setenv("SLURM_OVERLAP", "1")
