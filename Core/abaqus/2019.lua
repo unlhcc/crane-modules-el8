@@ -16,5 +16,9 @@ whatis("Description: Abaqus is a software suite for finite element analysis and 
 whatis("URL: http://www.simulia.com")
 
 prepend_path("PATH","/util/opt/abaqus/2019/Commands")
+prepend_path("PATH","/util/opt/abaqus/2019/SimulationServices/linux_a64/code/bin")
+prepend_path("PATH","/util/opt/abaqus/2019/tosca/linux_a64/code/bin")
+prepend_path("PATH","/util/opt/abaqus/2019/cae/linux_a64/code/bin")
+prepend_path("PATH","/util/opt/abaqus/2019/Isight/linux_a64/code/bin")
 setenv("TMI_CONFIG","/util/opt/abaqus/2019/SimulationServices/linux_a64/code/bin/SMAExternal/impi/etc/tmi.conf")
 unsetenv("SLURM_GTIDS")
