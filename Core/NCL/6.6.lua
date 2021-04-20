@@ -1,45 +1,37 @@
---%Module1.0###################################################################
---#
---# This modulefile for package ncl_ncarg modifies the PATH and MANPATH so
---# that executables, man pages, libraries and include files associated
---# with ncl_ncarg can be accessed easily.
---#
---##############################################################################
+help(
+[[
+This module loads NCL (NCAR Command Language).
+Version 6.6.2
 
-
-local help_message = [[
-The ncarg_ncl module file defines the following environment variables:
+The ncl module file defines the following environment variables:
 NCARG_ROOT, NCARG_BIN, NCARG_LIB, and NCARG_INC for the location of the
 NCARG distribution, binaries, libraries, and include files, respectively.
- 
+
 To use the NCARG library, compile the source code with the option:
 
-	-I$NCARG_INC
+        -I$NCARG_INC
 
 and add the following options to the link step:
 
-	-L$NCARG_LIB -lncarg
+        -L$NCARG_LIB -lncarg
 
 (or another of the available libraries that is appropriate to your application)
 
-Version 6.6
-
 ]]
-
-help(help_message,"\n")
-
-whatis("ncarg: NCAR Graphics utilities")
-whatis("Version: 6.6")
+)
+whatis("Name: ncl")
+whatis("Version: 6.6.2")
 whatis("Category: utility, runtime support")
 whatis("Keywords: Graphics, Utility")
-whatis("Description: A library of graphics utilites from the Natl. Center for Atmospheric Research." )
-whatis("URL: http://ngwww.ucar.edu/")
+whatis("URL: https://www.ncl.ucar.edu/")
+whatis("Description: NCAR Command Language")
 
-prepend_path("PATH","/util/opt/NCL/6.6/bin")
-prepend_path("MANPATH","/util/opt/NCL/6.6/man")
-
-setenv("NCARG_ROOT","/util/opt/NCL/6.6")
-setenv("NCARG_INC","/util/opt/NCL/6.6/include")
-setenv("NCARG_LIB","/util/opt/NCL/6.6/lib")
-setenv("NCARG_BIN","/util/opt/NCL/6.6/bin")
-setenv("NCARG_RANGS","/util/opt/NCL/rangs")
+pushenv("CONDA_DEFAULT_ENV", "ncl-6.6.2")
+append_path("CONDA_ENVS_PATH", "/util/opt/anaconda/deployed-conda-envs/packages/ncl/envs")
+prepend_path("PATH", "/util/opt/anaconda/deployed-conda-envs/packages/ncl/envs/ncl-6.6.2/bin")
+prepend_path("MANPATH","/util/opt/anaconda/deployed-conda-envs/packages/ncl/envs/ncl-6.6.2/man")
+setenv("NCARG_ROOT","/util/opt/anaconda/deployed-conda-envs/packages/ncl/envs/ncl-6.6.2")
+setenv("NCARG_INC","/util/opt/anaconda/deployed-conda-envs/packages/ncl/envs/ncl-6.6.2/include")
+setenv("NCARG_LIB","/util/opt/anaconda/deployed-conda-envs/packages/ncl/envs/ncl-6.6.2/lib")
+setenv("NCARG_BIN","/util/opt/anaconda/deployed-conda-envs/packages/ncl/envs/ncl-6.6.2/bin")
+setenv("NCARG_RANGS","/util/opt/anaconda/deployed-conda-envs/packages/ncl/envs/ncl-6.6.2/lib/ncarg/database/rangs")
