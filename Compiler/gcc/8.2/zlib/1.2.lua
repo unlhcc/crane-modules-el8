@@ -24,3 +24,5 @@ family("zlib")
 prepend_path("CPATH",             "/util/opt/zlib/1.2/gcc/8.2/include")
 prepend_path("LIBRARY_PATH",     "/util/opt/zlib/1.2/gcc/8.2/lib")
 prepend_path("PKG_CONFIG_PATH",        "/util/opt/zlib/1.2/gcc/8.2/lib/pkgconfig")
+
+setenv("ZLIB",                    "/util/opt/zlib/1.2/gcc/8.2")

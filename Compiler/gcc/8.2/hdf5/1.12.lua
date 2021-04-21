@@ -24,3 +24,5 @@ family("hdf5")
 
 prepend_path("CPATH",             "/util/opt/hdf5/1.12/gcc/8.2/include")
 prepend_path("LIBRARY_PATH",     "/util/opt/hdf5/1.12/gcc/8.2/lib")
+
+setenv("HDF5",                  "/util/opt/hdf5/1.12/gcc/8.2")

@@ -22,3 +22,5 @@ prepend_path("INCLUDE",             "/util/opt/curl/7.76/gcc/8.2/include")
 prepend_path("CPATH",             "/util/opt/curl/7.76/gcc/8.2/include")
 prepend_path("LIBRARY_PATH",     "/util/opt/curl/7.76/gcc/8.2/lib")
 prepend_path("PKG_CONFIG_PATH",        "/util/opt/curl/7.76/gcc/8.2/lib/pkgconfig")
+
+setenv("CURL", "/util/opt/curl/7.76/gcc/8.2")
