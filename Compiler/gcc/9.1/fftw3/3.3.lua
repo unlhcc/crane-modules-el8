@@ -19,6 +19,7 @@ prepend_path("LD_LIBRARY_PATH",     "/util/opt/fftw3/3.3/gcc/9.1/lib")
 prepend_path("LIBRARY_PATH",     "/util/opt/fftw3/3.3/gcc/9.1/lib")
 prepend_path("MANPATH",             "/util/opt/fftw3/3.3/gcc/9.1/share/man")
 setenv("FFTW3_INCLUDE",             "/util/opt/fftw3/3.3/gcc/9.1/include")
+setenv("FFTW3",                     "/util/opt/fftw3/3.3/gcc/9.1")
 prepend_path("CPATH",     "/util/opt/fftw3/3.3/gcc/9.1/include")
 
 family("fftw3")

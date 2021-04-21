@@ -19,6 +19,7 @@ prepend_path("INCLUDE",             "/util/opt/szip/2.1/gcc/9.1/include")
 
 family("szip")
 
-
 prepend_path("CPATH",             "/util/opt/szip/2.1/gcc/9.1/include")
 prepend_path("LIBRARY_PATH",     "/util/opt/szip/2.1/gcc/9.1/lib")
+
+setenv("SZIP",                  "/util/opt/szip/2.1/gcc/9.1")

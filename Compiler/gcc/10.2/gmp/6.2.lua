@@ -23,3 +23,5 @@ family("gmp")
 prepend_path("CPATH",             "/util/opt/gmp/6.2/gcc/10.2/include")
 prepend_path("LIBRARY_PATH",     "/util/opt/gmp/6.2/gcc/10.2/lib")
 prepend_path("PKG_CONFIG_PATH",        "/util/opt/gmp/6.2/gcc/10.2/lib/pkgconfig")
+
+setenv("GMP", "/util/opt/gmp/6.2/gcc/10.2")
