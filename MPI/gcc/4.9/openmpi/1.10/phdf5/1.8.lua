@@ -21,4 +21,6 @@ prepend_path("INCLUDE",             "/util/opt/hdf5/1.8/openmpi/1.10/gcc/4.9/inc
 prepend_path("CPATH",               "/util/opt/hdf5/1.8/openmpi/1.10/gcc/4.9/include")
 prepend_path("LIBRARY_PATH",        "/util/opt/hdf5/1.8/openmpi/1.10/gcc/4.9/lib")
 
+load("szip/2.1","zlib/1.2")
 family("phdf5")
+setenv("PHDF5",        "/util/opt/hdf5/1.8/openmpi/1.10/gcc/4.9")

@@ -23,3 +23,4 @@ prepend_path("CPATH",               "/util/opt/hdf5/1.12/openmpi/4.0/gcc/9.1/inc
 setenv("PHDF5", "/util/opt/hdf5/1.12/openmpi/4.0/gcc/9.1")
 
 family("phdf5")
+load("szip/2.1","zlib/1.2")

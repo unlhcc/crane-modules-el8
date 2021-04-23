@@ -22,3 +22,4 @@ prepend_path("LIBRARY_PATH",        "/util/opt/hdf5/1.12/openmpi/4.0/intel/20/li
 prepend_path("CPATH",               "/util/opt/hdf5/1.12/openmpi/4.0/intel/20/include")
 
 family("phdf5")
+load("szip/2.1","zlib/1.2")
