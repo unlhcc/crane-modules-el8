@@ -17,9 +17,7 @@ whatis("URL: https://smileipic.github.io")
 
 load("phdf5/1.12")
 prereq("python/3.8")
-prepend_path("PATH",                "/util/opt/smilei/4.6/openmpi/4.0/gcc/7.1/bin")
-prepend_path("LD_LIBRARY_PATH",     "/util/opt/smilei/4.6/openmpi/4.0/gcc/7.1/lib")
-prepend_path("LIBRARY_PATH",        "/util/opt/smilei/4.6/openmpi/4.0/gcc/7.1/lib")
-setenv("PICSAR",                     "/util/opt/smilei/4.6/openmpi/4.0/gcc/7.1")
+prepend_path("PATH",                "/util/opt/smilei/4.6/openmpi/4.0/gcc/7.1")
+setenv("SMILEI",                     "/util/opt/smilei/4.6/openmpi/4.0/gcc/7.1")
 
 family("smilei")
