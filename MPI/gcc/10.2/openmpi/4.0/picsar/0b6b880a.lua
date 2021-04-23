@@ -22,6 +22,6 @@ load("fftw3/3.3")
 prepend_path("PATH",                "/util/opt/picsar/0b6b880a/openmpi/4.0/gcc/10.2/bin")
 prepend_path("LD_LIBRARY_PATH",     "/util/opt/picsar/0b6b880a/openmpi/4.0/gcc/10.2/lib")
 prepend_path("LIBRARY_PATH",        "/util/opt/picsar/0b6b880a/openmpi/4.0/gcc/10.2/lib")
-setenv("picsar",                     "util/opt/picsar/0b6b880a/openmpi/4.0/gcc/10.2")
+setenv("PICSAR",                     "/util/opt/picsar/0b6b880a/openmpi/4.0/gcc/10.2")
 
 family("picsar")
