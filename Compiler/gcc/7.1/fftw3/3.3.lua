@@ -18,6 +18,7 @@ prepend_path("PATH",                "/util/opt/fftw3/3.3/gcc/7.1/bin")
 prepend_path("LD_LIBRARY_PATH",     "/util/opt/fftw3/3.3/gcc/7.1/lib")
 prepend_path("LIBRARY_PATH",     "/util/opt/fftw3/3.3/gcc/7.1/lib")
 prepend_path("MANPATH",             "/util/opt/fftw3/3.3/gcc/7.1/share/man")
+setenv("FFTW3_INCLUDE",             "/util/opt/fftw3/3.3/gcc/7.1/")
 setenv("FFTW3_INCLUDE",             "/util/opt/fftw3/3.3/gcc/7.1/include")
 prepend_path("CPATH",     "/util/opt/fftw3/3.3/gcc/7.1/include")
 
