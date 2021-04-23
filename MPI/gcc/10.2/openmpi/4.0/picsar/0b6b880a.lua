@@ -1,5 +1,5 @@
 local help_message = [[
-picsar 3.3
+picsar 0b6b880a
 
 This module loads the picsar environment, built with the GCC+OpenMPI
 compilers.
