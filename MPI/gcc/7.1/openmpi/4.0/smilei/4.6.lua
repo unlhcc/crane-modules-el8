@@ -19,5 +19,5 @@ load("phdf5/1.12")
 prereq("python/3.8")
 prepend_path("PATH",                "/util/opt/smilei/4.6/openmpi/4.0/gcc/7.1")
 setenv("SMILEI",                     "/util/opt/smilei/4.6/openmpi/4.0/gcc/7.1")
-
+prepend_path("PYTHONPATH", "/util/opt/smilei/4.6/openmpi/4.0/gcc/7.1")
 family("smilei")
