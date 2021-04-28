@@ -22,5 +22,5 @@ prepend_path("CPATH",               "/util/opt/netcdf/4.4/openmpi/1.10/gcc/4.9/i
 prepend_path("LIBRARY_PATH",        "/util/opt/netcdf/4.4/openmpi/1.10/gcc/4.9/lib")
 prepend_path("PKG_CONFIG_PATH",     "/util/opt/netcdf/4.4/openmpi/1.10/gcc/4.9/lib/pkgconfig")
 
-family("pnetcdf")
+family("netcdf")
 
