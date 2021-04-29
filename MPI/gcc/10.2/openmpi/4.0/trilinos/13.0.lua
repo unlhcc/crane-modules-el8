@@ -13,7 +13,7 @@ whatis("Category: library, runtime support")
 whatis("Keywords: System, Library")
 whatis("URL: https://trilinos.org/")
 
-setenv("TRILINOS", "/util/opt/trilinos/13.0/openmpi/4.0/gcc/10.2/bin")
+setenv("TRILINOS", "/util/opt/trilinos/13.0/openmpi/4.0/gcc/10.2")
 prepend_path("PATH",                "/util/opt/trilinos/13.0/openmpi/4.0/gcc/10.2/bin")
 prepend_path("LD_LIBRARY_PATH",     "/util/opt/trilinos/13.0/openmpi/4.0/gcc/10.2/lib")
 prepend_path("LIBRARY_PATH",     "/util/opt/trilinos/13.0/openmpi/4.0/gcc/10.2/lib")
