@@ -1,0 +1,20 @@
+help(
+[[
+This module load the reference implemantation of BLAS and LAPACK from netlib.org.
+
+Version 3.8
+]]
+)
+
+whatis("Name: lapack")
+whatis("Version: 3.8.0")
+whatis("Category: Utility, Mathematics")
+whatis("Keywords: Utility, Mathematics")
+whatis("URL: http://www.netlib.org/lapack/")
+whatis("Description: LAPACK is written in Fortran 90 and provides routines for solving systems of simultaneous linear equations, least-squares solutions of linear systems of equations, eigenvalue problems, and singular value problems.")
+
+
+prepend_path("LD_LIBRARY_PATH",   "/util/opt/lapack/3.8/gcc/4.9/lib")
+prepend_path("LIBRARY_PATH",   "/util/opt/lapack/3.8/gcc/4.9/lib")
+prepend_path("PKG_CONFIG_PATH",   "/util/opt/lapack/3.8/gcc/4.9/lib/pkgconfig")
+setenv("LAPACK", "/util/opt/lapack/3.8/gcc/4.9")
