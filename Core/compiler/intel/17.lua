@@ -17,11 +17,8 @@ whatis("Keywords: System, compiler")
 whatis("URL: http://www.intel.com")
 
 prepend_path("PATH",                "/util/comp/intel/17/bin")
-prepend_path("PATH",     "/util/comp/intel/16/compilers_and_libraries/linux/mpi/bin64")
 prepend_path("LD_LIBRARY_PATH",     "/util/comp/intel/17/lib/intel64")
-prepend_path("LD_LIBRARY_PATH",	    "/util/comp/intel/17/compilers_and_libraries/linux/mpi/lib64")
 prepend_path("LIBRARY_PATH",     "/util/comp/intel/17/lib/intel64")
-prepend_path("LIBRARY_PATH",     "/util/comp/intel/17/compilers_and_libraries/linux/mpi/lib64")
 prepend_path("MANPATH",             "/util/comp/intel/17/man/common")
 prepend_path("INCLUDE",             "/util/comp/intel/17/include")
 
