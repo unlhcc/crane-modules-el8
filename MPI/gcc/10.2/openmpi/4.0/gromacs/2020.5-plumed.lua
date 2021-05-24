@@ -29,5 +29,4 @@ prepend_path("MANPATH","/util/opt/gromacs/2020.5-plumed/openmpi/4.0/gcc/10.2/sha
 family("gromacs")
 
 prepend_path("LIBRARY_PATH","/util/opt/gromacs/2020.5-plumed/openmpi/4.0/gcc/10.2/lib64")
-prepend_path("PKG_CONFIG_PATH",        "/util/opt/gromacs/2020.5-plumed/openmpi/4.0/gcc/10.2/lib64/pkgconfig")
-~                                                                                                                  
+prepend_path("PKG_CONFIG_PATH",        "/util/opt/gromacs/2020.5-plumed/openmpi/4.0/gcc/10.2/lib64/pkgconfig")                                                                                                                
