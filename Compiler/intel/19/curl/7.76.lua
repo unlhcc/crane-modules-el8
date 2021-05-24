@@ -22,3 +22,5 @@ prepend_path("INCLUDE",             "/util/opt/curl/7.76/intel/19/include")
 prepend_path("CPATH",             "/util/opt/curl/7.76/intel/19/include")
 prepend_path("LIBRARY_PATH",     "/util/opt/curl/7.76/intel/19/lib")
 prepend_path("PKG_CONFIG_PATH",        "/util/opt/curl/7.76/intel/19/lib/pkgconfig")
+
+setenv("CURL", "/util/opt/curl/7.76/intel/19")
