@@ -28,3 +28,5 @@ prepend_path("PATH","/util/opt/bzip2/1.0/intel/20/bin")
 prepend_path("LD_LIBRARY_PATH","/util/opt/bzip2/1.0/intel/20/lib")
 prepend_path("MANPATH","/util/opt/bzip2/1.0/intel/20/man")
 prepend_path("INCLUDE","/util/opt/bzip2/1.0/intel/20/include")
+
+setenv("BZIP2" , "/util/opt/bzip2/1.0/intel/20")

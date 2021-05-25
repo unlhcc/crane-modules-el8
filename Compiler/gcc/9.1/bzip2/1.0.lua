@@ -29,4 +29,4 @@ prepend_path("LD_LIBRARY_PATH","/util/opt/bzip2/1.0/gcc/9.1/lib")
 prepend_path("MANPATH","/util/opt/bzip2/1.0/gcc/9.1/man")
 prepend_path("INCLUDE","/util/opt/bzip2/1.0/gcc/9.1/include")
 
-setenv("BZIP2" , "/util/opt/bzip2/1.0.8/gcc/9.1")
+setenv("BZIP2" , "/util/opt/bzip2/1.0/gcc/9.1")
