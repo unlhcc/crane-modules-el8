@@ -53,3 +53,9 @@ end
 -- setenv("LSTC_LICENSE_SERVER", "10.138.31.201")
 
 prepend_path("PATH","/util/opt/lsdyna/r11.0.0/intel/16/openmpi/2.1/bin")
+
+-- workaround for Intel 16.1 PID bug
+-- https://community.intel.com/t5/Intel-Fortran-Compiler/segfault-reading-from-piped-stdin-on-centos7-2/m-p/1065768#M118422
+setenv("FORT0", "/dev/stderr")
+setenv("FORT5", "/dev/stdin")
+setenv("FORT6", "/dev/stdout")
