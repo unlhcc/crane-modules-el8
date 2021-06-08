@@ -14,5 +14,5 @@ whatis("Keywords: CPLEX, IBM Optimization Studio")
 whatis("URL: https://www.ibm.com/products/ilog-cplex-optimization-studio")
 
 prepend_path("PATH",     "/util/opt/IBM-ILOG-CPLEX/20.10/cplex/bin/x86-64_linux")
-prepend_path("PATH",     "/util/opt/IBM-ILOG-CPLEX/20.10/opl/oplide/oplide")
+prepend_path("PATH",     "/util/opt/IBM-ILOG-CPLEX/20.10/opl/oplide")
 prepend_path("ILOG_CPLEX_PATH",     "/util/opt/IBM-ILOG-CPLEX/20.10")
