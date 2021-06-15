@@ -34,7 +34,7 @@ else
       if word == "reid" or word == "mech950" then
         setenv("LSTC_LICENSE", "network")
         setenv("LSTC_LICENSE_SERVER", "10.71.104.44")
-      elseif word == "wittichlab" or word == "swanson" or word == "dlinzell" or word == "simlab" or word == "steelman" then
+      elseif word == "wittichlab" or word == "swanson" or word == "dlinzell" or word == "simlab" or word == "skimlab" or word == "steelman" then
         setenv("LSTC_LICENSE", "network")
         setenv("LSTC_LICENSE_SERVER", "10.71.101.135")
       elseif word == "bobaru" or word == "mnegahban" then --UNL Mechanical Engineering
