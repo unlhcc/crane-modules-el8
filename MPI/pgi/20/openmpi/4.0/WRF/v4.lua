@@ -23,5 +23,6 @@ setenv("WRFIO_NCD_LARGE_FILE_SUPPORT", "1")
 setenv("LIBXEXT","/util/opt/libxext/1.3")
 prepend_path("LD_LIBRARY_PATH", "/util/opt/libxext/1.3/lib")
 prepend_path("LIBRARY_PATH", "/util/opt/libxext/1.3/lib")
+setenv("ZLIB_PATH", tostring(os.getenv("ZLIB")))
 
 family("WRF")
