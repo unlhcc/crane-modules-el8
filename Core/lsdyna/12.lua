@@ -13,7 +13,7 @@ help(help_message,"\n")
 whatis("Name: LS-DYNA")
 whatis("Keywords: Application, Engineering")
 
-load("compiler/intel/18","intel-mpi")
+load("compiler/intel/16","openmpi/4.0")
 
 --
 -- Logic to allow only certain HCC groups to use LS-DYNA
@@ -52,4 +52,10 @@ end
 -- setenv("LSTC_LICENSE", "network")
 -- setenv("LSTC_LICENSE_SERVER", "10.138.31.201")
 
-prepend_path("PATH","/util/opt/lsdyna/r12/")
+prepend_path("PATH","/util/opt/lsdyna/r12.0.0/intel/16/openmpi/4.0/bin")
+
+-- workaround for Intel 16.1 PID bug
+-- https://community.intel.com/t5/Intel-Fortran-Compiler/segfault-reading-from-piped-stdin-on-centos7-2/m-p/1065768#M118422
+setenv("FORT0", "/dev/stderr")
+setenv("FORT5", "/dev/stdin")
+setenv("FORT6", "/dev/stdout")
