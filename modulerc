@@ -34,8 +34,6 @@ hide-version trinity/r2014-04-13p1
 hide-version trinity/2.0
 hide-version trinity/2.1
 hide-version comsol/5.5
-hide-version r-asreml/r36/4.1
-hide-version r-asreml/r40/4.1
 hide-version compiler/pgi/13
 hide-version compiler/pgi/12
 hide-version compiler/intel/12
