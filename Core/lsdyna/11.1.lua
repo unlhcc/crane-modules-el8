@@ -11,8 +11,10 @@ mpp971_d    = Double precision parallel (OpnenMPI)
 help(help_message,"\n")
 
 whatis("Name: LS-DYNA")
+whatis("Version: 11.1.0")
 whatis("Keywords: Application, Engineering")
-whatis("Version: 11.2.1")
+
+load("compiler/intel/16","openmpi/2.1")
 
 --
 -- Logic to allow only certain HCC groups to use LS-DYNA
@@ -31,10 +33,10 @@ else
       --
       if word == "reid" or word == "mech950" then
         setenv("LSTC_LICENSE", "network")
-        setenv("LSTC_LICENSE_SERVER", "10.138.31.201")
-      elseif word == "wittichlab" or word == "swanson" or word == "dlinzell" or word == "skimlab" or word == "cematerials" or word == "simlab" then
+        setenv("LSTC_LICENSE_SERVER", "10.71.104.44")
+      elseif word == "wittichlab" or word == "swanson" or word == "dlinzell" or word == "simlab" or word == "skimlab" or word == "steelman" then
         setenv("LSTC_LICENSE", "network")
-        setenv("LSTC_LICENSE_SERVER", "10.138.31.207")
+        setenv("LSTC_LICENSE_SERVER", "10.71.101.135")
       elseif word == "bobaru" or word == "mnegahban" then --UNL Mechanical Engineering
         setenv("LSTC_LICENSE", "network")
         setenv("LSTC_LICENSE_SERVER", "10.138.31.208")
@@ -51,7 +53,7 @@ end
 -- setenv("LSTC_LICENSE", "network")
 -- setenv("LSTC_LICENSE_SERVER", "10.138.31.201")
 
-prepend_path("PATH","/util/opt/lsdyna/r11.2.1/intel/16/openmpi/2.1/bin")
+prepend_path("PATH","/util/opt/lsdyna/r11.1.0/intel/16/openmpi/2.1/bin")
 
 -- workaround for Intel 16.1 PID bug
 -- https://community.intel.com/t5/Intel-Fortran-Compiler/segfault-reading-from-piped-stdin-on-centos7-2/m-p/1065768#M118422
