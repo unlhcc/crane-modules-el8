@@ -11,6 +11,7 @@ mpp971_d    = Double precision parallel (OpnenMPI)
 help(help_message,"\n")
 
 whatis("Name: LS-DYNA")
+whatis("Version: 12.0.0")
 whatis("Keywords: Application, Engineering")
 
 load("compiler/intel/16","openmpi/4.0")
