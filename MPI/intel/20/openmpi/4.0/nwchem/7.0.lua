@@ -18,4 +18,5 @@ if mode() == "load" then
   local jobid=os.getenv("SLURM_JOB_ID") or ""
   if jobid == "" then
     LmodMessage("\n\tPlease run 'ln -s $NWCHEMRC $HOME' before running nwchem for the first time.")
+  end
 end
