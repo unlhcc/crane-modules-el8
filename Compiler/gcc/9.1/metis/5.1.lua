@@ -16,6 +16,6 @@ whatis("URL: http://glaros.dtc.umn.edu/gkhome/metis/metis/overview")
 
 prepend_path("PATH","/util/opt/metis/5.1/gcc/9.1/bin")
 prepend_path("LD_LIBRARY_PATH",     "/util/opt/metis/5.1/gcc/9.1/lib/")
-setenv("METIS_INCLUDE",             " /util/opt/metis/5.1/gcc/9.1/include/")
+setenv("METIS_INCLUDE",             "/util/opt/metis/5.1/gcc/9.1/include/")
 setenv("METIS","/util/opt/metis/5.1/gcc/9.1/")
 setenv("METIS_VERSION","5.1.0")
