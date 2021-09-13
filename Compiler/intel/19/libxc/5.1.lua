@@ -21,6 +21,6 @@ prepend_path("INCLUDE",             "/util/opt/libxc/5.1/intel/19/include")
 prepend_path("CPATH",               "/util/opt/libxc/5.1/intel/19/include")
 prepend_path("LIBRARY_PATH",        "/util/opt/libxc/5.1/intel/19/lib")
 
-setenv("LIBXC", "/util/opt/libxc/5.1/intel/19/bin")
+setenv("LIBXC", "/util/opt/libxc/5.1/intel/19")
 
 family("libxc")

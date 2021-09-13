@@ -21,6 +21,6 @@ prepend_path("INCLUDE",             "/util/opt/libxc/5.1/gcc/9.1/include")
 prepend_path("CPATH",               "/util/opt/libxc/5.1/gcc/9.1/include")
 prepend_path("LIBRARY_PATH",        "/util/opt/libxc/5.1/gcc/9.1/lib")
 
-setenv("LIBXC", "/util/opt/libxc/5.1/gcc/9.1/bin")
+setenv("LIBXC", "/util/opt/libxc/5.1/gcc/9.1")
 
 family("libxc")
