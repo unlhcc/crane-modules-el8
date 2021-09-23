@@ -13,6 +13,6 @@ whatis("Keywords: Biology, Bioinformatics")
 whatis("URL: https://bitbucket.org/berkeleylab/mhm2/src/master/")
 
 setenv("MHM2_DIR",                 "/util/opt/mhm2/2.0/openmpi/4.0/gcc/10.2")
-prepend_path("PATH",                "/util/opt/mhm2/2.0/openmpi/4.0/gcc/10.2")
+prepend_path("PATH",                "/util/opt/mhm2/2.0/openmpi/4.0/gcc/10.2/bin")
 
 prereq("upcxx/2021.3")
