@@ -16,3 +16,9 @@ whatis("Description: UPC++ is a parallel programming library for developing C++ 
 
 prepend_path("PATH",                "/util/opt/upcxx/2021.3/openmpi/4.0/gcc/10.2/bin")
 setenv("UPCXX_INSTALL", "/util/opt/upcxx/2021.3/openmpi/4.0/gcc/10.2")
+
+local jobid=os.getenv("SLURM_JOB_ID") or ""
+if jobid ~= "" then
+  local maxpin_ram_mb = math.floor(0.667 * capture("cgget -nv -r memory.limit_in_bytes /slurm/uid_${UID}/job_${SLURM_JOB_ID}/step_${SLURM_STEP_ID}") / 1048576) .. "M"
+  setenv("GASNET_PHYSMEM_MAX", maxpin_ram_mb)
+end
