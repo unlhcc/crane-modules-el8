@@ -35,3 +35,4 @@ family("mpi")
 
 setenv("SLURM_WHOLE","1")
 setenv("SLURM_OVERLAP","1")
+setenv("OPENMPI", "/util/opt/openmpi/1.10/gcc/6.1")

@@ -36,3 +36,4 @@ prepend_path("PKG_CONFIG_PATH",        "/util/opt/openmpi/1.10/gcc/5.4/lib/pkgco
 
 setenv("SLURM_WHOLE","1")
 setenv("SLURM_OVERLAP","1")
+setenv("OPENMPI", "/util/opt/openmpi/1.10/gcc/5.4")
