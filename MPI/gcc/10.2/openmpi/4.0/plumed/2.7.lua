@@ -16,5 +16,6 @@ prepend_path("LD_LIBRARY_PATH", "/util/opt/plumed/2.7/openmpi/4.0/gcc/10.2/lib")
 prepend_path("INCLUDE", "/util/opt/plumed/2.7/openmpi/4.0/gcc/10.2/include")
 prepend_path("LIBRARY_PATH", "/util/opt/plumed/2.7/openmpi/4.0/gcc/10.2/lib")
 prepend_path("CPATH", "/util/opt/plumed/2.7/openmpi/4.0/gcc/10.2/include")
+setenv("PLUMED", "/util/opt/plumed/2.7/openmpi/4.0/gcc/10.2")
 
 family("plumed")
