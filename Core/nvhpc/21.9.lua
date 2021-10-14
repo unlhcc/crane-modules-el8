@@ -20,9 +20,10 @@ whatis("Description: NVIDIA HPC SDK for Linux.")
 conflict("nvhpc")
 conflict("nvhpc-nompi")
 conflict("nvhpc-byo-compiler")
--- the SDK bundles its own openmpi and uses the system gcc
+-- the SDK bundles its own openmpi, cuda, and uses the system gcc
 conflict("openmpi")
 conflict("compiler")
+conflict("cuda")
 
 setenv("NVHPC","/util/opt/nvidia-hpc-sdk/2021.219")
 setenv("NVHPC_ROOT","/util/opt/nvidia-hpc-sdk/2021.219/Linux_x86_64/21.9")
