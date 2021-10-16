@@ -37,3 +37,4 @@ hide-version compiler/pgi/13
 hide-version compiler/pgi/12
 hide-version compiler/intel/12
 hide-version openmpi/1.10
+hide-version compiler/gcc/10.3
