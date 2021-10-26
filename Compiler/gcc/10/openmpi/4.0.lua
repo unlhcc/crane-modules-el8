@@ -25,7 +25,7 @@ prepend_path("MANPATH",             "/util/opt/openmpi/4.0/gcc/10.2/share/man")
 prepend_path("INCLUDE",             "/util/opt/openmpi/4.0/gcc/10.2/include")
 
 local mroot = os.getenv("MODULEPATH_ROOT") or "/util/opt/modulefiles"
-local mdir = pathJoin(mroot,"MPI","gcc","10.2","openmpi","4.0")
+local mdir = pathJoin(mroot,"MPI","gcc","10","openmpi","4.0")
 prepend_path("MODULEPATH",          mdir)
 
 prepend_path("CPATH",               "/util/opt/openmpi/4.0/gcc/10.2/include")
