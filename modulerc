@@ -38,3 +38,4 @@ hide-version compiler/intel/12
 hide-version openmpi/1.10
 hide-version compiler/gcc/10.2
 hide-version compiler/gcc/10.3
+hide-version openmpi/4.1
