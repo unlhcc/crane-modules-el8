@@ -14,7 +14,6 @@ whatis("URL: https://www.mcs.anl.gov/petsc/index.html")
 
 setenv("PETSC_DIR",                 "/util/opt/petsc/3.10/openmpi/2.1/gcc/8.2")
 
-prepend_path("PATH",                "/util/opt/petsc/3.10/openmpi/2.1/gcc/8.2/bin")
 prepend_path("PATH",                "/util/opt/petsc/3.10/openmpi/2.1/gcc/8.2/lib/petsc/bin")
 prepend_path("LD_LIBRARY_PATH",     "/util/opt/petsc/3.10/openmpi/2.1/gcc/8.2/lib")
 prepend_path("MANPATH",             "/util/opt/petsc/3.10/openmpi/2.1/gcc/8.2/share")
