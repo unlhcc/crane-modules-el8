@@ -17,5 +17,6 @@ load("intel-mkl/20")
 prepend_path("PATH",               "/util/opt/wannier90/3.1/openmpi/4.0/intel/20/bin")
 prepend_path("LD_LIBRARY_PATH",    "/util/opt/wannier90/3.1/openmpi/4.0/intel/20/lib")
 prepend_path("LIBRARY_PATH",       "/util/opt/wannier90/3.1/openmpi/4.0/intel/20/lib")
+setenv("WANNIER90", "/util/opt/wannier90/3.1/openmpi/4.0/intel/20")
 
 family("wannier")
