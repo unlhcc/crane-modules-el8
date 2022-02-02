@@ -10,10 +10,10 @@ whatis("Category: Physics, Mathematics")
 whatis("Keywords: Physics, Mathematics")
 whatis("URL: https://github.com/vossjo/libbeef")
 
-prepend_path("PATH",                "/util/opt/libbeef/0.1.3/intel/19/bin")
-prepend_path("LD_LIBRARY_PATH",     "/util/opt/libbeef/0.1.3/intel/19/lib")
-prepend_path("LIBRARY_PATH",        "/util/opt/libbeef/0.1.3/intel/19/lib")
+prepend_path("PATH",                "/util/opt/libbeef/0.1/gcc/9/bin")
+prepend_path("LD_LIBRARY_PATH",     "/util/opt/libbeef/0.1/gcc/9/lib")
+prepend_path("LIBRARY_PATH",        "/util/opt/libbeef/0.1/gcc/9/lib")
 
-setenv("LIBBEEF", "/util/opt/libbeef/0.1.3/intel/19")
+setenv("LIBBEEF", "/util/opt/libbeef/0.1/gcc/9")
 
 family("libbeef")
