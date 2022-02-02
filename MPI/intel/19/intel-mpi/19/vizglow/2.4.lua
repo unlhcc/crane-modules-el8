@@ -15,6 +15,8 @@ prepend_path("PATH","/util/opt/vizglow/VizGlow_v2.4.1")
 prepend_path("PATH","/util/opt/vizglow/VizGlow_v2.4.1/bin")
 prepend_path("PATH","/util/opt/vizglow/VizGlow_v2.4.1/bin/gui")
 prepend_path("LD_LIBRARY_PATH","/util/opt/vizglow/VizGlow_v2.4.1/lib64")
+setenv("LM_LICENSE_FILE", "/util/opt/vizglow/VizGlow_v2.4.1/licensing/esgeelm.lic")
+
 load("intel-mkl/19")
 
 if mode() == "load" then
