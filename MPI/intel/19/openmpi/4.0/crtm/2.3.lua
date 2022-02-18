@@ -16,3 +16,4 @@ prepend_path("LD_LIBRARY_PATH",     "/util/opt/crtm/2.3/intel/19/crtm_v2.3.0/lib
 prepend_path("INCLUDE",             "/util/opt/crtm/2.3/intel/19/crtm_v2.3.0/include")
 prepend_path("LIBRARY_PATH",        "/util/opt/crtm/2.3/intel/19/crtm_v2.3.0/lib")
 prepend_path("CPATH",               "/util/opt/crtm/2.3/intel/19/crtm_v2.3.0/include")
+setenv("CRTM", "/util/opt/crtm/2.3/intel/19/crtm_v2.3.0")
