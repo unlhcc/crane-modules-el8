@@ -40,3 +40,5 @@ hide-version compiler/gcc/10.2
 hide-version compiler/gcc/10.3
 hide-version mpich/3.4
 hide-version compiler/gcc/9.1
+hide-version asreml/3.0
+hide-version asreml/4.1
