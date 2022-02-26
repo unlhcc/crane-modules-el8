@@ -65,7 +65,7 @@ setenv("LDT_HDF5",tostring(os.getenv("HDF5")))
 setenv("LDT_HDFEOS",tostring(os.getenv("HDFEOS2")))
 setenv("LDT_GDAL",tostring(os.getenv("GDAL")))
 setenv("LDT_FORTRANGIS",tostring(os.getenv("FORTRANGIS")))
-setenv("LDT_GEOTIFF",tostring(os.getenv("LIBGEOTIFF")))
+setenv("LDT_LIBGEOTIFF",tostring(os.getenv("LIBGEOTIFF")))
 -- example output from configure
 setenv("LDT_CONFIG_OUT","/util/opt/LIS/7.3/ldt/configure.out")
 
