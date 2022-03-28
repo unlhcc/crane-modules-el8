@@ -4,6 +4,8 @@ VASP 6.3.0
 This module loads the vasp solvation environment, built with the Intel 19
 compilers. Only authorized users are able to run vasp.
 
+This build of VASP includes support for HDF5, wannier90, libbeef, libxc, and dftd4.
+
 ]]
 
 help(help_message,"\n")
