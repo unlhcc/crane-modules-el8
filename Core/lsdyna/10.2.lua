@@ -5,7 +5,7 @@ LS-DYNA (Finite Element Analysis Software)
 ## This is a special dev version, only MPI version available ##
 
 mpp971_s    = Single precision parallel (OpenMPI)
-mpp971_d    = Double precision parallel (OpnenMPI)
+mpp971_d    = Double precision parallel (OpenMPI)
 
 ]]
 
