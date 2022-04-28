@@ -15,6 +15,8 @@ whatis("URL: https://www.ibm.com/products/ilog-cplex-optimization-studio")
 
 prepend_path("PATH",     "/util/opt/IBM-ILOG-CPLEX/12.10/intel/19.0.1/cplex/bin/x86-64_linux")
 prepend_path("PATH",     "/util/opt/IBM-ILOG-CPLEX/12.10/intel/19.0.1/cpoptimizer/bin/x86-64_linux")
+prepend_path("LD_LIBRARY_PATH",     "/util/opt/IBM-ILOG-CPLEX/12.10/intel/19.0.1/cplex/bin/x86-64_linux")
+prepend_path("LD_LIBRARY_PATH",     "/util/opt/IBM-ILOG-CPLEX/12.10/intel/19.0.1/cpoptimizer/bin/x86-64_linux")
 prepend_path("PATH",     "/util/opt/IBM-ILOG-CPLEX/12.10/intel/19.0.1/opl/oplide")
 prepend_path("LD_LIBRARY_PATH",     "/util/opt/IBM-ILOG-CPLEX/12.10/intel/19.0.1/cplex/lib/x86-64_linux/static_pic")
 prepend_path("INCLUDE",             "/util/opt/IBM-ILOG-CPLEX/12.10/intel/19.0.1/cplex/include/ilcplex/")
