@@ -20,6 +20,7 @@ prepend_path("MANPATH",             "/util/opt/hdf5/1.12/openmpi/4.0/intel/20/sh
 prepend_path("INCLUDE",             "/util/opt/hdf5/1.12/openmpi/4.0/intel/20/include")
 prepend_path("LIBRARY_PATH",        "/util/opt/hdf5/1.12/openmpi/4.0/intel/20/lib")
 prepend_path("CPATH",               "/util/opt/hdf5/1.12/openmpi/4.0/intel/20/include")
+setenv("PHDF5", "/util/opt/hdf5/1.12/openmpi/4.0/intel/20")
 
 family("hdf5")
 load("szip/2.1","zlib/1.2")
