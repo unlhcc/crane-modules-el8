@@ -13,12 +13,12 @@ whatis("Category: Application, Chemistry")
 whatis("Keywords: Application, Chemistry")
 whatis("URL: http://www.quantumwise.com/")
 
--- setenv("QUANTUM_LICENSE_PATH", "6200@dmol4b.unl.edu")
--- setenv("LMX_LICENSE_PATH", "6200@dmol4b.unl.edu")
+setenv("QUANTUM_LICENSE_PATH", "6200@dmol4b.unl.edu")
+setenv("LMX_LICENSE_PATH", "6200@dmol4b.unl.edu")
 
 -- https://hcc.freshdesk.com/a/tickets/33277
-setenv("QUANTUM_LICENSE_PATH", "6200@10.64.88.184")
-setenv("LMX_LICENSE_PATH", "6200@10.64.88.184")
+-- setenv("QUANTUM_LICENSE_PATH", "6200@10.64.88.184")
+-- setenv("LMX_LICENSE_PATH", "6200@10.64.88.184")
 
 
 prepend_path("PATH","/util/opt/atk/2016.3/VNL-ATK-2016.3/bin")
