@@ -14,6 +14,7 @@ whatis("Keywords: Biology, Molecular dynamics")
 whatis("URL: http://www.gromacs.org/")
 whatis("Description: GROMACS is a versatile package to perform molecular dynamics, i.e. simulate the Newtonian equations of motion for systems with hundreds to millions of particles.")
 
+load("lapack/3.9")
 setenv("GMXBIN", "/util/opt/BCRF/GROMACS/5.1/gcc/4.9/bin")
 setenv("GMXLDLIB", "/util/opt/BCRF/GROMACS/5.1/gcc/4.9/lib64")
 setenv("GMXMAN", "/util/opt/BCRF/GROMACS/5.1/gcc/4.9/share/man")
