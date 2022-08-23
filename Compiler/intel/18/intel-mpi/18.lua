@@ -48,3 +48,7 @@ setenv("I_MPI_FABRICS",         "shm:ofi")
 
 setenv("SLURM_OVERLAP",   "1")
 setenv("SLURM_WHOLE",     "1")
+
+-- https://community.intel.com/t5/Intel-oneAPI-HPC-Toolkit/mpiexec-hydra-of-intel2018-2021-not-starting-at-RHEL8-6/m-p/1399977#M9683
+-- https://lore.kernel.org/lkml/CAGsJ_4yb5Z3msMgXRZpSXLFiysQdJq-n_p9B6d-p2t_-_UHhVQ@mail.gmail.com/T/#u
+prepend_path("LD_PRELOAD", "/util/opt/intel-mpi/ftellspoof.so")
