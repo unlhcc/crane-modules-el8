@@ -23,4 +23,4 @@ prepend_path("LD_LIBRARY_PATH","/util/opt/intel-oneapi/2021.1.0.2659/mkl/2021.1.
 prepend_path("LIBRARY_PATH","/util/opt/intel-oneapi/2021.1.0.2659/mkl/2021.1.1/lib/intel64")
 prepend_path("CPATH","/util/opt/intel-oneapi/2021.1.0.2659/mkl/2021.1.1/include")
 prepend_path("PKG_CONFIG_PATH","/util/opt/intel-oneapi/2021.1.0.2659/mkl/2021.1.1/tools/pkgconfig")
-prepend_path({"NLSPATH","/util/opt/intel-oneapi/2021.1.0.2659/mkl/2021.1.1/lib/intel64/locale/%l_%t/%N")
+prepend_path("NLSPATH","/util/opt/intel-oneapi/2021.1.0.2659/mkl/2021.1.1/lib/intel64/locale/%l_%t/%N")
