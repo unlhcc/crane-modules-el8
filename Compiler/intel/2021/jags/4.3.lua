@@ -26,3 +26,6 @@ load("intel-mkl/2021")
 
 prepend_path("LIBRARY_PATH",   "/util/opt/jags/4.3/intel/2021/lib")
 prepend_path("PKG_CONFIG_PATH",        "/util/opt/jags/4.3/intel/2021/lib/pkgconfig")
+
+setenv("JAGS_PREFIX","/util/opt/jags/4.3/intel/2021")
+setenv("JAGS","/util/opt/jags/4.3/intel/2021")
