@@ -24,5 +24,6 @@ setenv("LIBXEXT","/util/opt/libxext/1.3")
 prepend_path("LD_LIBRARY_PATH", "/util/opt/libxext/1.3/lib")
 prepend_path("LIBRARY_PATH", "/util/opt/libxext/1.3/lib")
 setenv("ZLIB_PATH", tostring(os.getenv("ZLIB")))
+setenv("HDF5_PATH", tostring(os.getenv("HDF5")))
 
 family("WRF")
