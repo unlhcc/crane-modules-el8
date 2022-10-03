@@ -32,7 +32,7 @@ else
       --
       -- CHECK GROUP MEMBERSHIP
       --
-      if word == "reid" or word == "mech950" then
+      if word == "mwrsf" or word == "mech950" then
         setenv("LSTC_LICENSE", "network")
         setenv("LSTC_LICENSE_SERVER", "10.71.104.44")
       elseif word == "wittichlab" or word == "swanson" or word == "dlinzell" or word == "simlab" or word == "skimlab" or word == "steelman" or word == "huconcrete" then
