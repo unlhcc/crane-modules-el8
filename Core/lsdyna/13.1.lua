@@ -11,10 +11,10 @@ mpp971_d    = Double precision parallel (OpenMPI)
 help(help_message,"\n")
 
 whatis("Name: LS-DYNA")
-whatis("Version: 13.1.0")
+whatis("Version: 13.1.1")
 whatis("Keywords: Application, Engineering")
 
-load("compiler/intel/19","openmpi/2.1")
+load("compiler/intel/19","openmpi/4.0")
 
 --
 -- Logic to allow only certain HCC groups to use LS-DYNA
@@ -53,4 +53,4 @@ end
 -- setenv("LSTC_LICENSE", "network")
 -- setenv("LSTC_LICENSE_SERVER", "10.138.31.201")
 
-prepend_path("PATH","/util/opt/lsdyna/r13.1.0/intel/19/openmpi/2.1/bin")
+prepend_path("PATH","/util/opt/lsdyna/r13.1/intel/19/openmpi/4.0/bin")
