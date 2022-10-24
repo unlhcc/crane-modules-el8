@@ -32,6 +32,6 @@ prepend_path("LIBRARY_PATH","/util/opt/anaconda/deployed-conda-envs/packages/gro
 prepend_path("PKG_CONFIG_PATH","/util/opt/anaconda/deployed-conda-envs/packages/gromacs/envs/gromacs-2022.3-mpi/lib/pkgconfig")
 prepend_path("PKG_CONFIG_PATH","/util/opt/anaconda/deployed-conda-envs/packages/gromacs/envs/gromacs-2022.3-mpi/lib.AVX_256/pkgconfig")
 
-set_alias (“gmx”, “gmx_mpi_d”)
+set_alias ("gmx", "gmx_mpi_d")
 
 family("gromacs")
