@@ -1,3 +1,4 @@
+-- This file lives at https://git.unl.edu/hcc/crane-modules-el8/-/blob/master/SitePackage.lua
 --------------------------------------------------------------------------
 -- This is a placeholder for site specific functions.
 -- @module SitePackage
