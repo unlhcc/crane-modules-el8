@@ -1,7 +1,7 @@
 local help_message = [[
 VASP 5.4.0
 
-This module loads the vasp solvation environment, built with the Intel 19
+This module loads the VASP VTST environment, built with the Intel 19
 compilers. Only authorized users are able to run vasp.
 
 This version was compiled with VASP Transition State Tools (VTST) support.

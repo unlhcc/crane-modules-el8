@@ -1,7 +1,7 @@
 local help_message = [[
 VASP 6.2.0
 
-This module loads the vasp solvation environment, built with the Intel 19
+This module loads the VASP environment, built with the Intel 19
 compilers. Only authorized users are able to run vasp.
 
 ]]
