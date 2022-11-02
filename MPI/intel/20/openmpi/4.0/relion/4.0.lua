@@ -7,7 +7,7 @@ Please note: This module only provides the RELION CLI tools. For GUI access, use
 
 help(help_message,"\n")
 
-whatis("Name: RELION ")
+whatis("Name: RELION")
 whatis("Version: 4.0.0")
 whatis("Category: Physics, Chemistry")
 whatis("Keywords: Physics, Chemistry")
