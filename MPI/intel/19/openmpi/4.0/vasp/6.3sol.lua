@@ -17,6 +17,6 @@ whatis("Keywords: Applications, Chemistry")
 whatis("URL: https://www.vasp.at/")
 
 load("intel-mkl/19","hdf5/1.12","libxc/5.1","dftd4/3.3")
-prepend_path("PATH","/util/opt/vasp/6.3-sol/intel/19/openmpi/4.0/bin")
+prepend_path("PATH","/util/opt/vasp/6.3.0-solvation/intel/19/openmpi/4.0/bin/")
 
 family("vasp")
