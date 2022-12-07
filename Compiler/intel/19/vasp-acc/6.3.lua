@@ -14,7 +14,7 @@ whatis("Category: library, runtime support")
 whatis("Keywords: Applications, Chemistry")
 whatis("URL: https://www.vasp.at/")
 
+load("compiler/nvhpc/21.9","intel-mkl/19")
 prepend_path("PATH","/util/opt/vasp/6.3.0-acc/nvhpc/21.9/bin/")
-prereq("nvhpc/21.9")
-load("intel-mkl/19")
+
 family("vasp")
