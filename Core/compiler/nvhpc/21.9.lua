@@ -50,3 +50,7 @@ prepend_path("CPATH","/util/opt/nvidia-hpc-sdk/2021.219/Linux_x86_64/21.9/comm_l
 prepend_path("CPATH","/util/opt/nvidia-hpc-sdk/2021.219/Linux_x86_64/21.9/compilers/extras/qd/include/qd")
 prepend_path("MANPATH","/util/opt/nvidia-hpc-sdk/2021.219/Linux_x86_64/21.9/compilers/man")
 -- setenv("OPAL_PREFIX","/util/opt/nvidia-hpc-sdk/2021.219/Linux_x86_64/21.9/comm_libs/mpi")
+
+local mroot = os.getenv("MODULEPATH_ROOT") or "/util/opt/modulefiles"
+local mdir = pathJoin(mroot,"Compiler","nvhpc","21.9")
+prepend_path("MODULEPATH",          mdir)
