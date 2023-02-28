@@ -21,6 +21,7 @@ setenv("GMXLDLIB", "/util/opt/gromacs-gpu/2023/openmpi/4.1/gcc/10/lib64")
 setenv("GMXMAN", "/util/opt/gromacs-gpu/2023/openmpi/4.1/gcc/10/share/man")
 setenv("GMXDATA", "/util/opt/gromacs-gpu/2023/openmpi/4.1/gcc/10/share/gromacs")
 setenv("GMXFONT", "10x20")
+setenv("GMX_ENABLE_DIRECT_GPU_COMM", "true")
 
 prepend_path("PATH","/util/opt/gromacs-gpu/2023/openmpi/4.1/gcc/10/bin")
 prepend_path("LD_LIBRARY_PATH","/util/opt/gromacs-gpu/2023/openmpi/4.1/gcc/10/lib64")
