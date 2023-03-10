@@ -30,5 +30,3 @@ prepend_path("LD_LIBRARY_PATH", "/util/opt/ambertools/22/gcc/10/openmpi/4.1/lib/
 prepend_path("LIBRARY_PATH", "/util/opt/ambertools/22/gcc/10/openmpi/4.1/lib/")
 prepend_path("PYTHONPATH", "/util/opt/ambertools/22/gcc/10/openmpi/4.1/lib/python3.9/site-packages/")
 prepend_path("PERL5LIB", "/util/opt/ambertools/22/gcc/10/openmpi/4.1/lib/perl/")
-
-family("python")
