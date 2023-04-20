@@ -14,5 +14,7 @@ whatis("Description: TensorFlow is an open source machine learning framework for
 pushenv("CONDA_DEFAULT_ENV", "tensorflow-gpu-2.11.0-py38")
 append_path("CONDA_ENVS_PATH", "/util/opt/anaconda/deployed-conda-envs/packages/tensorflow-gpu/envs")
 prepend_path("PATH", "/util/opt/anaconda/deployed-conda-envs/packages/tensorflow-gpu/envs/tensorflow-gpu-2.11.0-py38/bin")
+-- Needed so TF XLA can find nvvm
+setenv("XLA_FLAGS","--xla_gpu_cuda_data_dir=/util/opt/anaconda/deployed-conda-envs/packages/tensorflow-gpu/envs/tensorflow-gpu-2.11.0-py38")
 
 family("python")
