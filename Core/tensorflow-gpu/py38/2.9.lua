@@ -16,5 +16,6 @@ append_path("CONDA_ENVS_PATH", "/util/opt/anaconda/deployed-conda-envs/packages/
 prepend_path("PATH", "/util/opt/anaconda/deployed-conda-envs/packages/tensorflow-gpu/envs/tensorflow-gpu-2.9.1-py38/bin")
 -- Needed so TF XLA can find nvvm
 setenv("XLA_FLAGS","--xla_gpu_cuda_data_dir=/util/opt/anaconda/deployed-conda-envs/packages/tensorflow-gpu/envs/tensorflow-gpu-2.9.1-py38")
+setenv("PYTHONNOUSERSITE", "1")
 
 family("python")
