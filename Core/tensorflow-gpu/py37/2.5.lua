@@ -14,5 +14,6 @@ whatis("URL: https://www.tensorflow.org")
 pushenv("CONDA_DEFAULT_ENV", "tensorflow-gpu-2.5.0-py37")
 append_path("CONDA_ENVS_PATH", "/util/opt/anaconda/deployed-conda-envs/packages/tensorflow-gpu/envs")
 prepend_path("PATH", "/util/opt/anaconda/deployed-conda-envs/packages/tensorflow-gpu/envs/tensorflow-gpu-2.5.0-py37/bin")
+setenv("PYTHONNOUSERSITE", "1")
 
 family("python")

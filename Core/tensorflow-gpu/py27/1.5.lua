@@ -13,5 +13,6 @@ whatis("URL: https://www.tensorflow.org")
 
 prepend_path{"PATH"		,"/util/opt/anaconda/4.3/envs/tensorflow-gpu-1.5.0-py27/bin",priority=100}
 pushenv("CONDA_DEFAULT_ENV"	,"tensorflow-gpu-1.5.0-py27")
+setenv("PYTHONNOUSERSITE", "1")
 
 family("python")
